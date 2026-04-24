@@ -26,7 +26,8 @@ The skill reorganizes your starred repositories README from language-based categ
 2. Apply the new categorization structure shown below
 3. Group repositories by purpose/functionality rather than language
 4. Add brief introductory paragraphs for each category
-5. Preserve all repository links and descriptions
+5. Preserve **ALL** repository links and descriptions (no repositories should be omitted)
+6. Use the "Miscellaneous" category for repositories that don't clearly fit into any of the other 12 categories
 
 ## Implementation Steps
 
@@ -49,8 +50,15 @@ The skill reorganizes your starred repositories README from language-based categ
    - Replace language-based categories with purpose-based ones
    - Add category introduction paragraphs
    - Maintain repository links and descriptions
+   - Ensure **ALL** repositories from the original README are included in the new structure
+   - Place repositories that don't clearly fit into other categories into the "Miscellaneous" category
 
-3. **Future enhancements**:
+3. **Verification**:
+   - Double-check that no repositories were accidentally removed during reorganization
+   - Confirm that all repository links and descriptions are preserved exactly as they were
+   - Verify that the "Miscellaneous" category is used appropriately for edge cases
+
+4. **Future enhancements**:
    - As LLMs and AI improve, consider more granular or specialized categories
    - Allow for dynamic category creation based on emerging trends
    - Implement semantic grouping based on project functionality
