@@ -76,6 +76,7 @@
 - [UberGuidoZ/Flipper](https://github.com/UberGuidoZ/Flipper) – Playground (and dump) of stuff I make or modify for the Flipper Zero
 - [beanstalkd/beanstalkd](https://github.com/beanstalkd/beanstalkd) – Beanstalk is a simple, fast work queue.
 - [colinkeenan/silentcast](https://github.com/colinkeenan/silentcast) – Create silent mkv screencast and animated gif.
+- [containers/bubblewrap](https://github.com/containers/bubblewrap) – Low-level unprivileged sandboxing tool used by Flatpak and similar projects
 - [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) – A code-searching tool similar to ack, but faster.
 - [hashcat/hashcat](https://github.com/hashcat/hashcat) – World's fastest and most advanced password recovery utility
 - [hishamhm/htop](https://github.com/hishamhm/htop) – htop is an interactive text-mode process viewer for Unix systems. It aims to be a better 'top'.
@@ -144,7 +145,7 @@
 
 ## Clojure
 
-- [logseq/logseq](https://github.com/logseq/logseq) – A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://discuss.logseq.com/t/logseq-product-roadmap/34267
+- [logseq/logseq](https://github.com/logseq/logseq) – A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV
 
 <div id="crystal"></div>
 
@@ -716,6 +717,7 @@
 - [ColinKinloch/cue-splitter](https://github.com/ColinKinloch/cue-splitter) – Split cue files to flac using ffmpeg
 - [EbodShojaei/bake](https://github.com/EbodShojaei/bake) – mbake is a Makefile formatter and linter. It only took 50 years!
 - [GAM-team/GAM](https://github.com/GAM-team/GAM) – command line management for Google Workspace
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) – 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
 - [LionSec/katoolin](https://github.com/LionSec/katoolin) – Automatically install all Kali linux tools
 - [Mage2Gen/Mage2Gen](https://github.com/Mage2Gen/Mage2Gen) – Python library for generating Magento 2 module
 - [NullArray/AutoSploit](https://github.com/NullArray/AutoSploit) – Automated Mass Exploiter
@@ -958,7 +960,6 @@
 - [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor)
 - [jitsi/jitsi-meet](https://github.com/jitsi/jitsi-meet) – Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.
 - [juice-shop/juice-shop](https://github.com/juice-shop/juice-shop) – OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
-- [kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap) – Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 - [linkwarden/linkwarden](https://github.com/linkwarden/linkwarden) – ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.
 - [logancyang/obsidian-copilot](https://github.com/logancyang/obsidian-copilot) – THE Copilot in Obsidian
 - [mage-os-lab/magento2-lsp](https://github.com/mage-os-lab/magento2-lsp) – Language Server (LSP) and MCP server for Magento 2 - provides go-to-definition, references,  and rename across PHP, XML, and layout files.
@@ -969,6 +970,7 @@
 - [nativefier/nativefier](https://github.com/nativefier/nativefier) – Make any web page a desktop application
 - [nicoespeon/gitgraph.js](https://github.com/nicoespeon/gitgraph.js) – [ARCHIVED] A JavaScript library to draw pretty git graphs in the browser
 - [niieani/hashids.js](https://github.com/niieani/hashids.js) – A small JavaScript library to generate YouTube-like ids from numbers.
+- [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) – Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 - [piotrwitek/react-redux-typescript-guide](https://github.com/piotrwitek/react-redux-typescript-guide) – The complete guide to static typing in "React & Redux" apps using TypeScript
 - [pnpm/pnpm](https://github.com/pnpm/pnpm) – Fast, disk space efficient package manager
 - [portainer/portainer](https://github.com/portainer/portainer) – Making Docker and Kubernetes management easy.
