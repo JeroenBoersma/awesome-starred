@@ -36,6 +36,7 @@ The skill reorganizes your starred repositories README from language-based categ
 5. Preserve **ALL** repository links and descriptions (no repositories should be omitted)
 6. Use the "Miscellaneous" category for repositories that don't clearly fit into any of the other 12 categories
 7. Write the result to `README.md` (not `starred.md`, which stays untouched as the raw source)
+8. Always write/normalize `README.md` with Unix line endings (`\n` only, no `\r`) — never introduce or preserve `\r\n` or `\r\r\n` line endings, regardless of what line endings `starred.md` or an existing `README.md` uses
 
 ## Implementation Steps
 
@@ -66,6 +67,7 @@ The skill reorganizes your starred repositories README from language-based categ
    - Confirm that all repository links and descriptions are preserved exactly as they were in `starred.md`
    - Verify that the "Miscellaneous" category is used appropriately for edge cases
    - Diff the repo set extracted from the new `README.md` against the repo set in `starred.md` — they must match exactly (same set, byte-for-byte entries)
+   - Confirm `README.md` contains no `\r` characters (e.g. `grep -c $'\r' README.md` should print `0`)
 
 4. **Future enhancements**:
    - As LLMs and AI improve, consider more granular or specialized categories

@@ -121,6 +121,7 @@
 - [duckdb/duckdb](https://github.com/duckdb/duckdb) – DuckDB is an analytical in-process SQL database management system
 - [electron/electron](https://github.com/electron/electron) – :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 - [gellin/TeamViewer_Permissions_Hook_V1](https://github.com/gellin/TeamViewer_Permissions_Hook_V1) – A proof of concept injectable C++ dll,  that uses naked inline hooking and direct memory modification to change your TeamViewer permissions.
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) – LLM inference in C/C++
 - [giuspen/cherrytree](https://github.com/giuspen/cherrytree) – cherrytree
 - [keepassxreboot/keepassxc](https://github.com/keepassxreboot/keepassxc) – KeePassXC is a cross-platform community-driven port of the Windows application “KeePass Password Safe”.
 - [lraton/FlopperZiro](https://github.com/lraton/FlopperZiro) – A Flipper Zero clone, but cheapest, DIY and simply Open Source, made with Arduino IDE
