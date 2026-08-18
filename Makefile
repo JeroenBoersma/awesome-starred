@@ -20,15 +20,15 @@ containerize:
 export GITHUB_TOKEN
 
 
-README.md: CONTAINER_COMMAND = run \
+starred.md: CONTAINER_COMMAND = run \
 		--rm -it \
 		-v "$(PWD)":"$(PWD)" \
 		--workdir="$(PWD)" \
 		-e GITHUB_TOKEN \
 		"$(STARRED_IMAGE)"
-README.md: CONTAINER_ARGUMENTS = -u "$(GITHUB_USERNAME)" \
+starred.md: CONTAINER_ARGUMENTS = -u "$(GITHUB_USERNAME)" \
 		--sort
-README.md: .envrc
+starred.md: .envrc
 #	$(MAKE) build
 	$(MAKE) -s containerize CONTAINER_COMMAND='$(CONTAINER_COMMAND)' CONTAINER_ARGUMENTS='$(CONTAINER_ARGUMENTS)' | tee "$@"
 
