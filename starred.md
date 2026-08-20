@@ -4,13 +4,14 @@
 
 ## Contents
 
-- [Apacheconf](#apacheconf)
+- [ApacheConf](#apacheconf)
 - [Astro](#astro)
 - [C](#c)
 - [C#](#c#)
 - [C++](#c++)
 - [CSS](#css)
 - [Clojure](#clojure)
+- [CoffeeScript](#coffeescript)
 - [Crystal](#crystal)
 - [Dart](#dart)
 - [Dockerfile](#dockerfile)
@@ -22,10 +23,11 @@
 - [JavaScript](#javascript)
 - [Just](#just)
 - [Kotlin](#kotlin)
-- [LUA](#lua)
+- [Lua](#lua)
+- [MDX](#mdx)
 - [Makefile](#makefile)
-- [Mdx](#mdx)
-- [Nsis](#nsis)
+- [Markdown](#markdown)
+- [NSIS](#nsis)
 - [Nunjucks](#nunjucks)
 - [Others](#others)
 - [PHP](#php)
@@ -36,9 +38,9 @@
 - [Ruby](#ruby)
 - [Rust](#rust)
 - [SCSS](#scss)
+- [SQLPL](#sqlpl)
 - [Scala](#scala)
 - [Shell](#shell)
-- [Sqlpl](#sqlpl)
 - [Swift](#swift)
 - [TeX](#tex)
 - [TypeScript](#typescript)
@@ -50,7 +52,7 @@
 
 <div id="apacheconf"></div>
 
-## Apacheconf
+## ApacheConf
 
 - [grayghostvisuals/webdesignerschecklist](https://github.com/grayghostvisuals/webdesignerschecklist) – A general workflow checklist for visual designers working within a team setting where they'll be sharing visual exploration and comps with a developer.
 
@@ -110,15 +112,16 @@
 - [ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse) – ClickHouse® is a real-time analytics database management system
 - [FULU-Foundation/OrcaSlicer-bambulab](https://github.com/FULU-Foundation/OrcaSlicer-bambulab)
 - [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD) – Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.
-- [LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp) – Run GGUF models easily with a KoboldAI UI. One File. Zero Install.
+- [LostRuins/koboldcpp](https://github.com/LostRuins/koboldcpp) – KoboldCpp - Run GGUF AI models locally with a KoboldAI UI. One File. Zero Install.
 - [NixOS/nix](https://github.com/NixOS/nix) – Nix, the purely functional package manager
 - [TheAssassin/AppImageLauncher](https://github.com/TheAssassin/AppImageLauncher) – Helper application for Linux distributions serving as a kind of "entry point" for running and integrating AppImages
 - [VCVRack/Rack](https://github.com/VCVRack/Rack) – The virtual Eurorack studio
 - [aristocratos/btop](https://github.com/aristocratos/btop) – A monitor of resources
 - [bambulab/BambuStudio](https://github.com/bambulab/BambuStudio) – PC Software for BambuLab and other 3D printers
+- [berthubert/bagconv](https://github.com/berthubert/bagconv) – Convert Dutch building/dwelling administration into a simpler format
 - [cr-marcstevens/hashclash](https://github.com/cr-marcstevens/hashclash) – Project HashClash - MD5 & SHA-1 cryptanalysis
 - [draios/sysdig](https://github.com/draios/sysdig) – Linux system exploration and troubleshooting tool with first class support for containers
-- [duckdb/duckdb](https://github.com/duckdb/duckdb) – DuckDB is an analytical in-process SQL database management system
+- [duckdb/duckdb](https://github.com/duckdb/duckdb) – DuckDB is a high-performance analytical database system
 - [electron/electron](https://github.com/electron/electron) – :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 - [gellin/TeamViewer_Permissions_Hook_V1](https://github.com/gellin/TeamViewer_Permissions_Hook_V1) – A proof of concept injectable C++ dll,  that uses naked inline hooking and direct memory modification to change your TeamViewer permissions.
 - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) – LLM inference in C/C++
@@ -132,6 +135,7 @@
 - [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) – Code. Music. Live.
 - [taylorconor/tinytetris](https://github.com/taylorconor/tinytetris) – 80x23 terminal tetris!
 - [v8/v8](https://github.com/v8/v8) – The official mirror of the V8 Git repository
+- [zen-browser/desktop](https://github.com/zen-browser/desktop) – Welcome to a calmer internet
 
 <div id="css"></div>
 
@@ -150,6 +154,12 @@
 
 - [logseq/logseq](https://github.com/logseq/logseq) – A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV
 
+<div id="coffeescript"></div>
+
+## CoffeeScript
+
+- [for-GET/http-decision-diagram](https://github.com/for-GET/http-decision-diagram) – An activity diagram to describe the resolution of HTTP response status codes, given various headers.
+
 <div id="crystal"></div>
 
 ## Crystal
@@ -160,7 +170,6 @@
 
 ## Dart
 
-- [KRTirtho/spotube](https://github.com/KRTirtho/spotube) – 🎧 Open source music streaming app! Available for both desktop & mobile!
 - [filiph/unsure](https://github.com/filiph/unsure) – Unsure Calculator
 
 <div id="dockerfile"></div>
@@ -185,7 +194,7 @@
 - [DNSCrypt/dnscrypt-resolvers](https://github.com/DNSCrypt/dnscrypt-resolvers) – Lists of public DNSCrypt / DoH DNS servers and DNS relays - Actively maintained since 2011.
 - [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) – A simple zero-config tool to make locally trusted development certificates with any names you'd like.
 - [FiloSottile/whoami.filippo.io](https://github.com/FiloSottile/whoami.filippo.io) – A ssh server that knows who you are. $ ssh whoami.filippo.io
-- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) – 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman
+- [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) – 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.
 - [OJ/gobuster](https://github.com/OJ/gobuster) – Directory/File, DNS and VHost busting tool written in Go
 - [RUB-NDS/Terrapin-Scanner](https://github.com/RUB-NDS/Terrapin-Scanner) – This repository contains a simple vulnerability scanner for the Terrapin attack present in the paper "Terrapin Attack: Breaking SSH Channel Integrity By Sequence Number Manipulation".
 - [StackExchange/blackbox](https://github.com/StackExchange/blackbox) – Safely store secrets in Git/Mercurial/Subversion
@@ -206,6 +215,7 @@
 - [fwdcloudsec/granted](https://github.com/fwdcloudsec/granted) – The easiest way to access AWS.
 - [github/gh-ost](https://github.com/github/gh-ost) – GitHub's Online Schema-migration Tool for MySQL
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) – Find secrets with Gitleaks 🔑
+- [glanceapp/glance](https://github.com/glanceapp/glance) – A self-hosted dashboard that puts all your feeds in one place
 - [go-gitea/gitea](https://github.com/go-gitea/gitea) – Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD
 - [goharbor/harbor](https://github.com/goharbor/harbor) – An open source trusted cloud native registry project that stores, signs, and scans content.
 - [goksan/statusnook](https://github.com/goksan/statusnook) – Effortlessly deploy a status page and start monitoring endpoints in minutes 
@@ -221,14 +231,13 @@
 - [keybase/kbfs](https://github.com/keybase/kbfs) – Keybase Filesystem (KBFS)
 - [linkerd/linkerd2](https://github.com/linkerd/linkerd2) – Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.
 - [mailhog/MailHog](https://github.com/mailhog/MailHog) – Web and API based SMTP testing
-- [mickamy/sql-tap](https://github.com/mickamy/sql-tap) – Watch SQL traffic in real-time with a TUI
 - [minio/minio](https://github.com/minio/minio) – MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.
 - [mislav/hub](https://github.com/mislav/hub) – A command-line tool that makes git easier to use with GitHub.
 - [moby/moby](https://github.com/moby/moby) – The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
 - [mudler/LocalAI](https://github.com/mudler/LocalAI) – LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.
 - [netdata/netdata](https://github.com/netdata/netdata) – The fastest path to AI-powered full stack observability, even for lean teams.
 - [noisetorch/NoiseTorch](https://github.com/noisetorch/NoiseTorch) – Real-time microphone noise suppression on Linux.
-- [ollama/ollama](https://github.com/ollama/ollama) – Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+- [ollama/ollama](https://github.com/ollama/ollama) – Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
 - [passteque/gluetun](https://github.com/passteque/gluetun) – VPN client in a thin Docker container for multiple VPN providers, written in Go, and using OpenVPN or Wireguard, DNS over TLS, with a few proxy servers built-in.
 - [peterldowns/nix-search-cli](https://github.com/peterldowns/nix-search-cli) – CLI for searching packages on search.nixos.org
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) – AI-Powered Photos App 🌈💎✨
@@ -241,6 +250,7 @@
 - [projectdiscovery/urlfinder](https://github.com/projectdiscovery/urlfinder) – A high-speed tool for passively gathering URLs, optimized for efficient and comprehensive web asset discovery without active scanning.
 - [projectdiscovery/vulnx](https://github.com/projectdiscovery/vulnx) – Modern CLI for exploring vulnerability data with powerful search, filtering, and analysis capabilities.
 - [prometheus/prometheus](https://github.com/prometheus/prometheus) – The Prometheus monitoring system and time series database.
+- [proto-tap/sql-tap](https://github.com/proto-tap/sql-tap) – Watch SQL traffic in real-time with a TUI
 - [rancher/rancher](https://github.com/rancher/rancher) – Complete container management platform
 - [restic/restic](https://github.com/restic/restic) – Fast, secure, efficient backup program
 - [roadrunner-server/roadrunner](https://github.com/roadrunner-server/roadrunner) – 🤯 High-performance PHP application server, process manager written in Go and powered with plugins
@@ -254,7 +264,6 @@
 - [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog) – Find, verify, and analyze leaked credentials
 - [twpayne/chezmoi](https://github.com/twpayne/chezmoi) – Manage your dotfiles across multiple diverse machines, securely.
 - [uswitch/kiam](https://github.com/uswitch/kiam) – Integrate AWS IAM with Kubernetes
-- [voidmind-io/voidllm](https://github.com/voidmind-io/voidllm) – Privacy-first LLM proxy and AI gateway - load balancing, multi-provider routing, API key management, usage tracking, rate limiting. Self-hosted. Zero knowledge of your prompts.
 - [wagoodman/bashful](https://github.com/wagoodman/bashful) – Use a yaml file to stitch together commands and bash snippits and run them with a bit of style.  Why? Because your bash script should be quiet and shy-like (...and not such a loud mouth). 
 - [wagoodman/dive](https://github.com/wagoodman/dive) – A tool for exploring each layer in a docker image
 - [weaveworks/footloose](https://github.com/weaveworks/footloose) – Container Machines - Containers that look like Virtual Machines
@@ -272,9 +281,8 @@
 - [blabla1337/skf-flask](https://github.com/blabla1337/skf-flask) – Security Knowledge Framework (SKF) Python Flask / Angular project
 - [daylerees/colour-schemes](https://github.com/daylerees/colour-schemes) – Colour schemes for a variety of editors created by Dayle Rees.
 - [diafygi/webrtc-ips](https://github.com/diafygi/webrtc-ips) – Demo: https://diafygi.github.io/webrtc-ips/
-- [donlon/cloudflare-error-page](https://github.com/donlon/cloudflare-error-page) – ✅Browser ❌Cloudflare ✅Host — Customized Cloudflare error page generator. (unofficial)
+- [donlon/cloudflare-error-page](https://github.com/donlon/cloudflare-error-page) – ✅Browser ❌Cloudflare ✅Host — Generator for customized Cloudflare error pages. (unofficial)
 - [edenspiekermann/outline-audit](https://github.com/edenspiekermann/outline-audit) – A script to test the heading outline of a document
-- [f/prompts.chat](https://github.com/f/prompts.chat) – f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - [gwillem/magento-malware-scanner](https://github.com/gwillem/magento-malware-scanner) – Scanner, signatures and the largest collection of Magento malware 
 - [ho-nl/magento1-Ho_nl_NL](https://github.com/ho-nl/magento1-Ho_nl_NL) – Correcte Nederlandse vertalingen voor Magento 1.9.x inclusief e-mailvertalingen.
 - [jrfnl/PHP-cheat-sheet-extended](https://github.com/jrfnl/PHP-cheat-sheet-extended) – Extended version of the Blueshoes PHP cheat sheet for variable type juggling
@@ -321,12 +329,13 @@
 - [DevExpress/testcafe](https://github.com/DevExpress/testcafe) – A Node.js tool to automate end-to-end web testing.
 - [EFForg/https-everywhere](https://github.com/EFForg/https-everywhere) – A browser extension that encrypts your communications with many websites that offer HTTPS but still allow unencrypted connections.
 - [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome) – The iconic SVG, font, and CSS toolkit
-- [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) – :love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.
+- [Green-PT/honey-for-devs](https://github.com/Green-PT/honey-for-devs) – Honey (I Shrunk the AI) by GreenPT: a cross-tool coding skill that cuts AI coding-agent token usage and LLM API costs — write less code, less prose, and denser agent-to-agent handoffs (−53%, lossless in benchmarks) with no loss of quality. Works with Claude Code, Cursor, GitHub Copilot, Codex, Gemini CLI, Windsurf, Cline & Kiro.
 - [JeroenBoersma/preact-bingo](https://github.com/JeroenBoersma/preact-bingo) – Play BINGO online with friends (WIP)
 - [Kalabasa/htmz](https://github.com/Kalabasa/htmz) – html with targeted manipulation zones
 - [Kong/insomnia-mockbin](https://github.com/Kong/insomnia-mockbin) – Insomnia Mockbin is the underlying backend for the API mocks capability of Insomnia. It is built and used by Kong, the author of the open-source Kong Gateway. 
 - [Laverna/laverna](https://github.com/Laverna/laverna) – Laverna is a JavaScript note taking application with Markdown editor and encryption support. Consider it like open source alternative to Evernote.
 - [NARKOZ/hacker-scripts](https://github.com/NARKOZ/hacker-scripts) – Based on a true story
+- [OWASP/CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) – The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
 - [Shopify/dashing](https://github.com/Shopify/dashing) – The exceptionally handsome dashboard framework in Ruby and Coffeescript.
 - [Song-Li/cross_browser](https://github.com/Song-Li/cross_browser) – This is a project for a browser fingerprinting technique that can track users not only within a single browser but also across different browsers on the same machine.
 - [SpaceK33z/plex2netflix](https://github.com/SpaceK33z/plex2netflix) – See how much of your media from Plex is available on Netflix.
@@ -360,7 +369,6 @@
 - [deathau/markdownload](https://github.com/deathau/markdownload) – A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file.
 - [ebradyjobory/finance.js](https://github.com/ebradyjobory/finance.js) – A JavaScript library for common financial calculations
 - [ekzhang/setwithfriends](https://github.com/ekzhang/setwithfriends) – 🎮 A frictionless multiplayer web app that lets you play Set with friends
-- [for-GET/http-decision-diagram](https://github.com/for-GET/http-decision-diagram) – An activity diagram to describe the resolution of HTTP response status codes, given various headers.
 - [gchq/CyberChef](https://github.com/gchq/CyberChef) – The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
 - [guardian/elk-stack](https://github.com/guardian/elk-stack) – ELK Stack ... based on Elastic Stack 5.x
 - [h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate) – A professional front-end template for building fast, robust, and adaptable web apps or sites.
@@ -418,9 +426,8 @@
 - [vuestorefront/mage2vuestorefront](https://github.com/vuestorefront/mage2vuestorefront) – Magento to Vue-storefront datapump - synchronizes Products, Categories and Product-to-category links between your Magento2 API and NoSQL database of vue-storefront
 - [webhooksite/webhook.site](https://github.com/webhooksite/webhook.site) – ⚓️ Easily test HTTP webhooks with this handy tool that displays requests instantly.
 - [webpack/webpack](https://github.com/webpack/webpack) – A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through "loaders", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.
-- [wekan/wekan](https://github.com/wekan/wekan) – The Open Source kanban, built with Meteor. GitHub issues/PRs are only for FLOSS Developers, not for support, support is at https://wekan.fi/commercial-support/ . New English strings for new features at imports/i18n/data/en.i18n.json . Non-English translations at https://app.transifex.com/wekan/wekan only.
+- [wekan/wekan](https://github.com/wekan/wekan) – FLOSS kanban, built with Meteor. Official Public Support at GitHub issues only. Official Private Pre-Paid Support at https://wekan.fi/commercial-support/ only. Translation PRs to imports/i18n/data/en.i18n.json, other translations at https://app.transifex.com/wekan/wekan . No telemetry.
 - [y7kim/agency-jekyll-theme](https://github.com/y7kim/agency-jekyll-theme) – Agency Theme for Jekyll
-- [zen-browser/desktop](https://github.com/zen-browser/desktop) – Welcome to a calmer internet
 
 <div id="just"></div>
 
@@ -433,15 +440,23 @@
 ## Kotlin
 
 - [doyensec/inql](https://github.com/doyensec/inql) – InQL is a robust, open-source Burp Suite extension for advanced GraphQL testing, offering intuitive vulnerability detection, customizable scans, and seamless Burp integration.
+- [team-spotube/spotube](https://github.com/team-spotube/spotube) – 🎧 Open source music streaming app! Available for both desktop & mobile!
 - [wuan/bo-android](https://github.com/wuan/bo-android) – Lightning data monitor Android app for Blitzortung.org
 
 <div id="lua"></div>
 
-## LUA
+## Lua
 
 - [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) – Neovim config for the lazy
 - [nexcess/magento-whitepaper-april-2018](https://github.com/nexcess/magento-whitepaper-april-2018)
 - [utterlyforked/mysql-proxy-obfuscator](https://github.com/utterlyforked/mysql-proxy-obfuscator) – mysql-proxy-obfuscator
+
+<div id="mdx"></div>
+
+## MDX
+
+- [f/prompts.chat](https://github.com/f/prompts.chat) – f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) – The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
 
 <div id="makefile"></div>
 
@@ -450,15 +465,15 @@
 - [byronmansfield/signal-desktop-container](https://github.com/byronmansfield/signal-desktop-container) – Signal messenger desktop application in a docker container
 - [motioneye-project/motioneyeos](https://github.com/motioneye-project/motioneyeos) – A Video Surveillance OS For Single-board Computers
 
-<div id="mdx"></div>
+<div id="markdown"></div>
 
-## Mdx
+## Markdown
 
-- [twbs/bootstrap](https://github.com/twbs/bootstrap) – The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.
+- [mdn/content](https://github.com/mdn/content) – The official source for MDN Web Docs content. Home to over 14,000 pages of documentation about HTML, CSS, JS, HTTP, Web APIs, and more.
 
 <div id="nsis"></div>
 
-## Nsis
+## NSIS
 
 - [micahflee/porcupine](https://github.com/micahflee/porcupine) – A "web browser" that copies URLs to your clipboard
 
@@ -479,6 +494,7 @@
 - [Roave/SecurityAdvisories](https://github.com/Roave/SecurityAdvisories) – :closed_lock_with_key: Security advisories as a simple composer exclusion list, updated daily
 - [Security-Onion-Solutions/security-onion](https://github.com/Security-Onion-Solutions/security-onion) – Security Onion 16.04 - Linux distro for threat hunting, enterprise security monitoring, and log management
 - [ShawnMcCool/ultra-mock](https://github.com/ShawnMcCool/ultra-mock) – A mocking framework for testing any class-based programming language.
+- [akeneo/pim-community-standard](https://github.com/akeneo/pim-community-standard) – [Community Standard Edition] The open source Product Information Management (PIM) - please raise issues in https://github.com/akeneo/pim-community-dev/issues
 - [arkadiyt/bounty-targets-data](https://github.com/arkadiyt/bounty-targets-data) – This repo contains hourly-updated data dumps of bug bounty platform scopes (like Hackerone/Bugcrowd/Intigriti/etc) that are eligible for reports
 - [basecamp/handbook](https://github.com/basecamp/handbook) – 37signals Employee Handbook
 - [berzerk0/Probable-Wordlists](https://github.com/berzerk0/Probable-Wordlists) – Version 2 is live! Wordlists sorted by probability originally created for password generation and testing - make sure your passwords aren't popular!
@@ -525,7 +541,7 @@
 - [relink2013/Awesome-Self-hosting-for-the-whole-family](https://github.com/relink2013/Awesome-Self-hosting-for-the-whole-family) – An Awesome List of apps that can be self hosted that your family can actually use without frustration. 
 - [semver/semver](https://github.com/semver/semver) – Semantic Versioning Specification
 - [shieldfy/API-Security-Checklist](https://github.com/shieldfy/API-Security-Checklist) – Checklist of the most important security countermeasures when designing, testing, and releasing your API
-- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) – 😎 Awesome lists about all kinds of interesting topics
+- [sindresorhus/awesome](https://github.com/sindresorhus/awesome) – 😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]
 - [steveklabnik/jujutsu-tutorial](https://github.com/steveklabnik/jujutsu-tutorial) – trying to figure out this jujutsu thing
 - [talesh/response](https://github.com/talesh/response) – A Magento Incident Response Plan Template
 - [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) – A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
@@ -599,7 +615,6 @@
 - [egeloen/ivory-google-map](https://github.com/egeloen/ivory-google-map) – Google Map API v3 integration for PHP 5.6+.
 - [elgentos/SendInvoiceEmail](https://github.com/elgentos/SendInvoiceEmail) – This small extension allows to send out invoice emails for payment methods that do not do this themselves, like PayPal Express and Authorize.net
 - [elgentos/magento2-prismicio](https://github.com/elgentos/magento2-prismicio) – Magento 2 Prismic integration
-- [elgentos/magento2-varnish-extended](https://github.com/elgentos/magento2-varnish-extended) – This extension extends the built-in Varnish functionalities
 - [elgentos/masquerade](https://github.com/elgentos/masquerade) – Faker-driven, configuration-based, platform-agnostic, locale-compatible data faker tool
 - [elgentos/parser](https://github.com/elgentos/parser) – Use this library to turn your day-to-day configurations into usable arrays/objects.
 - [ericthehacker/magento-phpnativepasswords](https://github.com/ericthehacker/magento-phpnativepasswords) – Adds support to Magento to optionally use PHP's native password hashing functionality.
@@ -707,7 +722,7 @@
 - [twigphp/Twig](https://github.com/twigphp/Twig) – Twig, the flexible, fast, and secure template language for PHP
 - [vaimo/composer-patches](https://github.com/vaimo/composer-patches) –  Applies a patch from a local or remote file to any package that is part of a given composer project. Patches can be defined both on project and on package level. Optional support for patch versioning, sequencing, custom patch applier configuration and composer command for testing/troubleshooting patches.
 - [vimeo/psalm](https://github.com/vimeo/psalm) – A PHP static analysis tool for finding errors and security vulnerabilities in PHP applications
-- [vinceAmstoutz/symfony-security-auditor](https://github.com/vinceAmstoutz/symfony-security-auditor) – AI-powered multi-agent security auditor for Symfony applications — provider-agnostic via symfony/ai.
+- [vinceAmstoutz/symfony-security-auditor](https://github.com/vinceAmstoutz/symfony-security-auditor) – AI-powered multi-agent security auditor for Symfony applications, provider-agnostic via symfony/ai.
 - [xcoreplatform/magento2-restapi](https://github.com/xcoreplatform/magento2-restapi) – Extension needed for the Magento 2 xCore connector
 - [xdebug/xdebug](https://github.com/xdebug/xdebug) – Xdebug — Step Debugger and Debugging Aid for PHP
 
@@ -731,8 +746,9 @@
 
 - [9001/copyparty](https://github.com/9001/copyparty) – Portable file server with accelerated resumable uploads, dedup, WebDAV, SFTP, FTP, TFTP, zeroconf, media indexer, thumbnails++ all in one file
 - [AiuniAI/Unique3D](https://github.com/AiuniAI/Unique3D) – [NeurIPS 2024] Unique3D: High-Quality and Efficient 3D Mesh Generation from a Single Image
+- [BerriAI/litellm](https://github.com/BerriAI/litellm) – The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]
 - [ColinKinloch/cue-splitter](https://github.com/ColinKinloch/cue-splitter) – Split cue files to flac using ffmpeg
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) – The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) – The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
 - [DepthFirstDisclosures/Nginx-Rift](https://github.com/DepthFirstDisclosures/Nginx-Rift) – NGINX RCE exploits
 - [EbodShojaei/bake](https://github.com/EbodShojaei/bake) – mbake is a Makefile formatter and linter. It only took 50 years!
 - [GAM-team/GAM](https://github.com/GAM-team/GAM) – command line management for Google Workspace
@@ -740,7 +756,6 @@
 - [LionSec/katoolin](https://github.com/LionSec/katoolin) – Automatically install all Kali linux tools
 - [Mage2Gen/Mage2Gen](https://github.com/Mage2Gen/Mage2Gen) – Python library for generating Magento 2 module
 - [NullArray/AutoSploit](https://github.com/NullArray/AutoSploit) – Automated Mass Exploiter
-- [OWASP/CheatSheetSeries](https://github.com/OWASP/CheatSheetSeries) – The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.
 - [OctoPrint/OctoPrint](https://github.com/OctoPrint/OctoPrint) – OctoPrint is the snappy web interface for your 3D printer!
 - [QubesOS/qubes-secpack](https://github.com/QubesOS/qubes-secpack) – Qubes Security Pack
 - [Rhizome-Conifer/conifer](https://github.com/Rhizome-Conifer/conifer) – Collect and revisit web pages.
@@ -756,11 +771,13 @@
 - [anderspitman/awesome-tunneling](https://github.com/anderspitman/awesome-tunneling) – List of ngrok, Cloudflare Tunnel, Tailscale, and ZeroTier alternatives and other tunneling software and services. Focus on self-hosting.
 - [ansible/ansible](https://github.com/ansible/ansible) – Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com.
 - [beetbox/beets](https://github.com/beetbox/beets) – music library manager and MusicBrainz tagger
+- [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) – NVR with realtime local object detection for IP cameras
 - [boltgolt/howdy](https://github.com/boltgolt/howdy) – 🛡️ Windows Hello™ style facial authentication for Linux
 - [caronc/apprise](https://github.com/caronc/apprise) – Apprise - Push Notifications that work with just about every platform!
 - [certbot/certbot](https://github.com/certbot/certbot) – Certbot is EFF's tool to obtain certs from Let's Encrypt and (optionally) auto-enable HTTPS on your server.  It can also act as a client for any other CA that uses the ACME protocol.
 - [charlax/professional-programming](https://github.com/charlax/professional-programming) – A collection of learning resources for curious software engineers
 - [christophetd/CloudFlair](https://github.com/christophetd/CloudFlair) – 🔎 Find origin servers of websites behind CloudFlare by using Internet-wide scan data from Censys.
+- [coreruleset/coreruleset](https://github.com/coreruleset/coreruleset) – OWASP CRS (Official Repository)
 - [data-privacy-stack/presidio](https://github.com/data-privacy-stack/presidio) – An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.
 - [dbcli/mycli](https://github.com/dbcli/mycli) – Rich MySQL Terminal Client with AutoCompletion, Syntax Highlighting, and Dataframes
 - [edent/SuperTinyIcons](https://github.com/edent/SuperTinyIcons) – Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos
@@ -772,10 +789,11 @@
 - [guelfoweb/knockpy](https://github.com/guelfoweb/knockpy) – Knock Subdomain Scan
 - [hannob/snallygaster](https://github.com/hannob/snallygaster) – Tool to scan for secret files on HTTP servers
 - [ilektrojohn/creepy](https://github.com/ilektrojohn/creepy) – A geolocation OSINT tool. Offers geolocation information gathering through social networking platforms.
-- [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) – CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting. It supports 150+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.
+- [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community) – CISO Assistant is a one-stop-shop GRC platform for Risk Management, AppSec, Compliance & Audit, TPRM, BIA, Privacy, and Reporting. It supports 200+ global frameworks with automatic control mapping, including ISO 27001, NIST CSF, SOC 2, CIS, PCI DSS, NIS2, DORA, GDPR, HIPAA, CMMC, and more.
 - [khamidou/kite](https://github.com/khamidou/kite) – (Obsolete, use https://github.com/inboxapp/inbox instead) A modern webmail.
 - [kulesh/catsyphon](https://github.com/kulesh/catsyphon)
 - [localstack/localstack](https://github.com/localstack/localstack) – 💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline
+- [maxswinkels/busybar-apps](https://github.com/maxswinkels/busybar-apps) – Community app gallery for BUSY Bar. Share your 72x16 LED apps via pull request.
 - [metabrainz/picard](https://github.com/metabrainz/picard) – Picard is a cross-platform music tagger powered by the MusicBrainz database
 - [minimaxir/big-list-of-naughty-strings](https://github.com/minimaxir/big-list-of-naughty-strings) – The Big List of Naughty Strings is a list of strings which have a high probability of causing issues when used as user-input data.
 - [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) – An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.
@@ -794,14 +812,14 @@
 - [rrmn/itter](https://github.com/rrmn/itter) – Micro-Blogging via Terminal
 - [s0md3v/Photon](https://github.com/s0md3v/Photon) – Incredibly fast crawler designed for OSINT.
 - [s0md3v/XSStrike](https://github.com/s0md3v/XSStrike) – Most advanced XSS scanner.
-- [samugit83/redamon](https://github.com/samugit83/redamon) – An AI-powered agentic red team framework that automates offensive security operations, from reconnaissance to exploitation to post-exploitation, with zero human intervention.
+- [samugit83/redamon](https://github.com/samugit83/redamon) – Open-source, self-hosted AI penetration testing framework: maps your attack surface into a graph, autonomously exploits it from a Kali sandbox with human approval gates, and opens PRs that fix what it finds. MCP both ways: plug in any MCP server as a tool, or drive RedAmon from Claude Code or your own agent.
 - [scrapy/scrapy](https://github.com/scrapy/scrapy) – Scrapy, a fast high-level web crawling & scraping framework for Python.
 - [secretsquirrel/BDFProxy](https://github.com/secretsquirrel/BDFProxy) – Patch Binaries via MITM: BackdoorFactory + mitmProxy.  
 - [sqlmapproject/sqlmap](https://github.com/sqlmapproject/sqlmap) – Automatic SQL injection and database takeover tool
-- [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical) – List of resources about programming practices for writing safety-critical software.
+- [stanislaw/awesome-safety-critical](https://github.com/stanislaw/awesome-safety-critical) – Resources on programming practices for safety-critical software.
 - [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) – A list of useful payloads and bypass for Web Application Security and Pentest/CTF
 - [theori-io/copy-fail-CVE-2026-31431](https://github.com/theori-io/copy-fail-CVE-2026-31431) – Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code
-- [trailofbits/skills](https://github.com/trailofbits/skills) – Trail of Bits Claude Code skills for security research, vulnerability detection, and audit workflows
+- [trailofbits/skills](https://github.com/trailofbits/skills) – Trail of Bits skills for security research, vulnerability detection, and audit workflows
 - [usestrix/strix](https://github.com/usestrix/strix) – Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
 - [vanna-ai/vanna](https://github.com/vanna-ai/vanna) – 🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using Agentic Retrieval 🔄.
 - [x0rz/tweets_analyzer](https://github.com/x0rz/tweets_analyzer) – Tweets metadata scraper & activity analyzer
@@ -823,7 +841,7 @@
 - [bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) – A curated list of awesome awesomeness
 - [capistrano/capistrano](https://github.com/capistrano/capistrano) – A deployment automation tool built on Ruby, Rake, and SSH.
 - [discourse/discourse](https://github.com/discourse/discourse) – A platform for community discussion. Free, open, simple.
-- [dradis/dradis-ce](https://github.com/dradis/dradis-ce) – Dradis Framework: Collaboration and reporting for IT Security teams
+- [dradis/dradis-ce](https://github.com/dradis/dradis-ce) – Dradis Community Edition: open-source pentest reporting and collaboration. Import Burp, Nessus, Nmap and more, then export the report.
 - [gitlabhq/gitlabhq](https://github.com/gitlabhq/gitlabhq) – GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com
 - [hashicorp/vagrant](https://github.com/hashicorp/vagrant) – Vagrant is a tool for building and distributing development environments.
 - [huginn/huginn](https://github.com/huginn/huginn) – Create agents that monitor and act on your behalf.  Your agents are standing by!
@@ -841,7 +859,7 @@
 - [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl) – Hurl, run and test HTTP requests with plain text.
 - [Pagefind/pagefind](https://github.com/Pagefind/pagefind) – Static low-bandwidth search at scale
 - [Wilfred/difftastic](https://github.com/Wilfred/difftastic) – a structural diff that understands syntax 🟥🟩
-- [Y2Z/monolith](https://github.com/Y2Z/monolith) – ⬛️ CLI tool and library for saving complete web pages as a single HTML file
+- [Y2Z/monolith](https://github.com/Y2Z/monolith) – ⬛️ GUI/CLI tool and library for saving complete web pages as a single HTML file
 - [alacritty/alacritty](https://github.com/alacritty/alacritty) – A cross-platform, OpenGL terminal emulator.
 - [alexpasmantier/television](https://github.com/alexpasmantier/television) – A very fast, portable and hackable fuzzy finder.
 - [asciinema/asciinema](https://github.com/asciinema/asciinema) – Terminal session recorder, streamer and player 📹
@@ -853,6 +871,8 @@
 - [epi052/feroxbuster](https://github.com/epi052/feroxbuster) – A fast, simple, recursive content discovery tool written in Rust.
 - [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) – The user-friendly command line shell.
 - [flox/flox](https://github.com/flox/flox) – The Deterministic Foundation for your SDLC
+- [gosub-io/gosub-beacon](https://github.com/gosub-io/gosub-beacon) – A browser based on the Gosub engine
+- [gosub-io/gosub-engine](https://github.com/gosub-io/gosub-engine) – The Gosub browser engine
 - [hahwul/urx](https://github.com/hahwul/urx) – Extracts URLs from OSINT Archives for Security Insights
 - [ironcalc/IronCalc](https://github.com/ironcalc/IronCalc) – Main engine of the IronCalc ecosystem
 - [jdx/mise](https://github.com/jdx/mise) – dev tools, env vars, task runner
@@ -874,13 +894,19 @@
 - [zed-industries/zed](https://github.com/zed-industries/zed) – Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 - [zellij-org/zellij](https://github.com/zellij-org/zellij) – A terminal workspace with batteries included
 - [zensical/zensical](https://github.com/zensical/zensical) – A modern static site generator by the Material for MkDocs team
-- [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) – Static analysis for GitHub Actions
+- [zizmorcore/zizmor](https://github.com/zizmorcore/zizmor) – Static analysis for GitHub Actions (and more)
 
 <div id="scss"></div>
 
 ## SCSS
 
 - [SnowdogApps/magento2-theme-blank-sass](https://github.com/SnowdogApps/magento2-theme-blank-sass) – SASS based version of Magento 2 Blank theme
+
+<div id="sqlpl"></div>
+
+## SQLPL
+
+- [ccondrup/mage-reset](https://github.com/ccondrup/mage-reset) – Simple sql scripts to reset testdata on Magento stores
 
 <div id="scala"></div>
 
@@ -903,7 +929,6 @@
 - [Vinai/compressed-magento-sample-data](https://github.com/Vinai/compressed-magento-sample-data) – A highly compressed version of the magento 1.9 sample data and a script to create it.
 - [Winetricks/winetricks](https://github.com/Winetricks/winetricks) – Winetricks is an easy way to work around problems in Wine
 - [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) – A pure Unix shell script ACME client for SSL / TLS certificate automation
-- [akeneo/pim-community-standard](https://github.com/akeneo/pim-community-standard) – [Community Standard Edition] The open source Product Information Management (PIM) - please raise issues in https://github.com/akeneo/pim-community-dev/issues
 - [alexeygumirov/lofree-flow-fn-fix](https://github.com/alexeygumirov/lofree-flow-fn-fix) – Script to fix the issue with the Lofree Flow Fn keys on Linux systems
 - [brentwpeterson/magento-patches](https://github.com/brentwpeterson/magento-patches) – As many Magento patches as I can find! 
 - [chaifeng/ufw-docker](https://github.com/chaifeng/ufw-docker) – To fix the Docker and UFW security flaw without disabling iptables
@@ -921,6 +946,7 @@
 - [jaytaph/sandbox-php](https://github.com/jaytaph/sandbox-php) – A PHP sandbox demonstration to test mitigations against supply chain attacks
 - [jessfraz/dotfiles](https://github.com/jessfraz/dotfiles) – My dotfiles. Buyer beware ;)
 - [jmcantrell/bashful](https://github.com/jmcantrell/bashful) – A collection of modules to simplify writing bash scripts.
+- [jrz/container-shell](https://github.com/jrz/container-shell) – Starts and attaches a sandboxed shell using docker with access to the current or project directory
 - [magemojo/magesecuritypatcher](https://github.com/magemojo/magesecuritypatcher) – Magento 1 Security Patcher from MageMojo
 - [mattpocock/skills](https://github.com/mattpocock/skills) – Skills for Real Engineers. Straight from my .agents directory.
 - [mhauri/generate-modman](https://github.com/mhauri/generate-modman) – Shell script to generate modman files for Magento Extensions
@@ -945,12 +971,6 @@
 - [zetaron/docker-laravel](https://github.com/zetaron/docker-laravel)
 - [zsh-users/antigen](https://github.com/zsh-users/antigen) – The plugin manager for zsh.
 
-<div id="sqlpl"></div>
-
-## Sqlpl
-
-- [ccondrup/mage-reset](https://github.com/ccondrup/mage-reset) – Simple sql scripts to reset testdata on Magento stores
-
 <div id="swift"></div>
 
 ## Swift
@@ -972,17 +992,19 @@
 - [Chocobozzz/PeerTube](https://github.com/Chocobozzz/PeerTube) – ActivityPub-federated video streaming platform using P2P directly in your web browser
 - [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) – Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) – Open Source Alternative to Vercel, Netlify and Heroku.
+- [Foundry376/Mailspring](https://github.com/Foundry376/Mailspring) – :love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.
 - [Make-md/makemd](https://github.com/Make-md/makemd)
 - [QwikDev/partytown](https://github.com/QwikDev/partytown) – Relocate resource intensive third-party scripts off of the main thread and into a web worker. 🎉
 - [ajayyy/DeArrow](https://github.com/ajayyy/DeArrow) – Crowdsourcing better titles and thumbnails on YouTube
 - [anomalyco/opencode](https://github.com/anomalyco/opencode) – The open source coding agent.
+- [arabold/docs-mcp-server](https://github.com/arabold/docs-mcp-server) – Grounded Docs MCP Server: Open-Source Alternative to Context7, Nia, and Ref.Tools
 - [atuinsh/desktop](https://github.com/atuinsh/desktop) – 📖 Runbooks that run 
-- [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) – NVR with realtime local object detection for IP cameras
 - [compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer) – Run compilers interactively from your web browser and interact with the assembly
-- [cytostack/openwolf](https://github.com/cytostack/openwolf) – Sharper context. Fewer tokens. Open-source middleware for Claude Code.
+- [cytostack/openwolf](https://github.com/cytostack/openwolf) – Portable project memory across Claude Code, Codex and OpenCode, plus token accounting measured from harness transcripts. Local file I/O, no API calls, no telemetry.
 - [directus/directus](https://github.com/directus/directus) – The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth & more.
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) – The context API to search, scrape, and interact with the web at scale. 🔥
-- [fosrl/pangolin](https://github.com/fosrl/pangolin) – Identity-aware VPN and tunneled reverse proxy for remote access based on WireGuard®.
+- [elgentos/magento2-varnish-extended](https://github.com/elgentos/magento2-varnish-extended) – This extension extends the built-in Varnish functionalities
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) – Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
+- [fosrl/pangolin](https://github.com/fosrl/pangolin) – Modern networking and security platform providing secure access and connectivity to apps, infrastructure, and AI workloads. Connect and protect your users.
 - [gigobyte/ui-stack](https://github.com/gigobyte/ui-stack) – :mag: A Chrome extension that lets you inspect a website's framework and libraries
 - [grafana/grafana](https://github.com/grafana/grafana) – The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. 
 - [haystackeditor/haystack-editor](https://github.com/haystackeditor/haystack-editor)
@@ -990,7 +1012,7 @@
 - [juice-shop/juice-shop](https://github.com/juice-shop/juice-shop) – OWASP Juice Shop: Probably the most modern and sophisticated insecure web application
 - [linkwarden/linkwarden](https://github.com/linkwarden/linkwarden) – ⚡️⚡️⚡️ Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place.
 - [lissy93/web-check](https://github.com/lissy93/web-check) – 🕵️‍♂️ All-in-one OSINT tool for analysing any website
-- [logancyang/obsidian-copilot](https://github.com/logancyang/obsidian-copilot) – THE Copilot in Obsidian
+- [logancyang/obsidian-copilot](https://github.com/logancyang/obsidian-copilot) – Run agents in Obsidian - OpenCode, Codex, Claude Code etc.
 - [mage-os-lab/magento2-lsp](https://github.com/mage-os-lab/magento2-lsp) – Language Server (LSP) and MCP server for Magento 2 - provides go-to-definition, references,  and rename across PHP, XML, and layout files.
 - [microsoft/vscode](https://github.com/microsoft/vscode) – Visual Studio Code
 - [milesj/shapeshifter](https://github.com/milesj/shapeshifter) – 🐺 Generate relational schemas, PropTypes, Flow aliases, and TypeScript interfaces from JSON or GraphQL schematic files.
@@ -1002,6 +1024,7 @@
 - [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) – Interactive roadmaps, guides and other educational content to help developers grow in their careers.
 - [piotrwitek/react-redux-typescript-guide](https://github.com/piotrwitek/react-redux-typescript-guide) – The complete guide to static typing in "React & Redux" apps using TypeScript
 - [portainer/portainer](https://github.com/portainer/portainer) – Making Docker and Kubernetes management easy.
+- [requarks/wiki](https://github.com/requarks/wiki) – Wiki.js | Next Generation Open Source Wiki
 - [rictic/jsonriver](https://github.com/rictic/jsonriver) – A simple, fast streaming JSON parser built on standards.
 - [rough-stuff/wired-elements](https://github.com/rough-stuff/wired-elements) – Collection of custom elements that appear hand drawn. Great for wireframes or a fun look.
 - [snyk/cli](https://github.com/snyk/cli) – Snyk CLI scans and monitors your projects for security vulnerabilities.
@@ -1036,7 +1059,6 @@
 ## Vue
 
 - [pulsejet/memories](https://github.com/pulsejet/memories) – Fast, modern and advanced photo management suite. Runs as a Nextcloud app.
-- [requarks/wiki](https://github.com/requarks/wiki) – Wiki.js | A modern and powerful wiki app built on Node.js
 
 <div id="zig"></div>
 
